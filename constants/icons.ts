@@ -10,6 +10,11 @@ import darklike from "@/assets/icons/Vectorheart.png"
 import lightlike from "@/assets/icons/Vectorwhite heart.png"
 import reply from "@/assets/icons/Vectorreply.png"
 import comment from "@/assets/icons/Vector.png"
+import plus from "@/assets/icons/Vectorplus.png"
+import backarrow from "@/assets/icons/Frameleftarrow.png"
+import video from "@/assets/icons/Vectormkv.png"
+import image from "@/assets/icons/Groupjpg icon.png"
+import file from "@/assets/icons/Vectorfile icon.png"
 
 
 export default {
@@ -24,5 +29,10 @@ export default {
     darklike,
     lightlike,
     reply,
-   comment
+    comment,
+    plus,
+    backarrow,
+    video,
+    image,
+   file
 };

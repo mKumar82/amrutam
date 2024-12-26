@@ -1,12 +1,12 @@
-import { View, Text, TouchableOpacity, Image } from 'react-native'
-import React from 'react'
-import { Divider } from 'react-native-elements';
-import icons from '@/constants/icons';
+import { View, Text, TouchableOpacity, Image } from "react-native";
+import React from "react";
+import { Divider } from "@rneui/themed";
+import icons from "@/constants/icons";
 
 const DividerSection = () => {
   return (
     <View>
-      <Divider orientation="horizontal" inset={true} insetType="middle" />;
+      <Divider style={{ width: "60%"}} inset />
       <View className="flex-row justify-center gap-5 p-5">
         <View>
           <TouchableOpacity>
@@ -33,9 +33,12 @@ const DividerSection = () => {
           </TouchableOpacity>
         </View>
       </View>
-      <Divider orientation="horizontal" />;
+      <Divider />
     </View>
   );
-}
+};
 
-export default DividerSection
+export default DividerSection;
+ 
+
+

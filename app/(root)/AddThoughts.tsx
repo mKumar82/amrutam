@@ -1,8 +1,14 @@
-import { View, Text, Image, TextInput, TouchableOpacity } from 'react-native'
-import React from 'react'
-import { SafeAreaView } from 'react-native-safe-area-context'
-import icons from '@/constants/icons'
-import images from '@/constants/images'
+import {
+  View,
+  Text,
+  Image,
+  TextInput,
+  TouchableOpacity,
+} from "react-native";
+import React from "react";
+import { SafeAreaView } from "react-native-safe-area-context";
+import icons from "@/constants/icons";
+import images from "@/constants/images";
 
 const AddThoughts = () => {
   return (
@@ -63,13 +69,16 @@ const AddThoughts = () => {
           </TouchableOpacity>
         </View>
       </View>
+
       <View className="flex items-center mt-60">
-        <TouchableOpacity className="bg-[#3A643B] h-[50px] w-[340px] rounded-2xl justify-center items-center">
-          <Text className="text-[#FFFFFF]">Save and proceed</Text>
-        </TouchableOpacity>
+        
+          <TouchableOpacity className="bg-[#3A643B] h-[50px] w-[340px] rounded-2xl justify-center items-center">
+            <Text className="text-[#FFFFFF]">Save and proceed</Text>
+          </TouchableOpacity>
+        
       </View>
     </SafeAreaView>
   );
-}
+};
 
-export default AddThoughts
+export default AddThoughts;

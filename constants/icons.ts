@@ -15,6 +15,8 @@ import backarrow from "@/assets/icons/Frameleftarrow.png"
 import video from "@/assets/icons/Vectormkv.png"
 import image from "@/assets/icons/Groupjpg icon.png"
 import file from "@/assets/icons/Vectorfile icon.png"
+import addans from "@/assets/icons/Groupadd answer.png"
+import report from "@/assets/icons/Groupreport.png"
 
 
 export default {
@@ -34,5 +36,7 @@ export default {
     backarrow,
     video,
     image,
-   file
+    file,
+    addans,
+   report
 };

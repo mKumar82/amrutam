@@ -71,11 +71,9 @@ const AddThoughts = () => {
       </View>
 
       <View className="flex items-center mt-60">
-        
-          <TouchableOpacity className="bg-[#3A643B] h-[50px] w-[340px] rounded-2xl justify-center items-center">
-            <Text className="text-[#FFFFFF]">Save and proceed</Text>
-          </TouchableOpacity>
-        
+        <TouchableOpacity className="bg-[#3A643B] h-[50px] w-[340px] rounded-2xl justify-center items-center">
+          <Text className="text-[#FFFFFF]">Save and proceed</Text>
+        </TouchableOpacity>
       </View>
     </SafeAreaView>
   );

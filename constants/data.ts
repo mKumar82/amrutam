@@ -1,5 +1,3 @@
-
-
 export const questions = [
   {
     title: "What is React Native?",
@@ -60,9 +58,7 @@ export const thoughts = [
     title: "Can Ayurveda help with stress and mental health issues?",
     description: `Ayurveda, one of the world's oldest holistic healing systems, originated in India over 3,000 years ago and is still widely practiced today. It is based on the belief that health and wellness depend on a delicate balance between the mind, body, and spirit. Unlike conventional medicine, Ayurveda emphasizes prevention and the personalized treatment of diseases through a combination of diet, herbal remedies, exercise, and lifestyle adjustments. One fascinating aspect is its concept of "doshas" – Vata, Pitta, and Kapha – which are believed to be the primary life forces or energies that govern our physiological and psychological activities. Ayurvedic practitioners tailor treatments to balance these doshas in each individual, promoting harmony and health.`,
     time: "5 days ago",
-        image: "",
-    comments:comments
+    image: "",
+    comments: comments,
   },
 ];
-
-

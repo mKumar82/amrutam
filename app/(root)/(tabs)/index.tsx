@@ -1,13 +1,11 @@
 import QuestionCard from "@/components/QuestionCard";
-import images from "@/constants/images";
 import icons from "@/constants/icons";
 import { useRouter } from "expo-router";
 import React, { useState } from "react";
 import { Image, ScrollView, Text, TouchableOpacity, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import ThoughtCard from "@/components/ThoughtCard";
-import { Link } from "expo-router";
-import { questions,thoughts } from "@/constants/data";
+import { questions, thoughts } from "@/constants/data";
 
 export default function Index() {
   const [activeTab, setActiveTab] = useState("Question");

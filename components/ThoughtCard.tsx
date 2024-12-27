@@ -13,6 +13,7 @@ import icons from "@/constants/icons";
 import images from "@/constants/images";
 import DividerSection from "./DividerSection";
 import CommentCard from "./CommentCard";
+import VerticalDots from "./VerticalDots";
 
 const ThoughtCard = ({
   thought,
@@ -45,14 +46,8 @@ const ThoughtCard = ({
             <Text>{thought.author}</Text>
             <Text className="text-[#8D8D8D]">{thought.time}</Text>
           </View>
-          <View className="h-20 w-[10%] flex justify-center ">
-            <TouchableOpacity>
-              <Image
-                source={icons.dots}
-                style={{ width: 5, height: 20, objectFit: "contain" }}
-              />
-            </TouchableOpacity>
-          </View>
+
+          <VerticalDots />
         </View>
         <View className="flex p-5">
           <Text className="text-lg">{`Thought: ${thought.title}`}</Text>
@@ -85,7 +80,7 @@ const ThoughtCard = ({
         </View>
         <KeyboardAvoidingView
           behavior={Platform.OS === "ios" ? "padding" : undefined}
-          style={{flex:1}}
+          style={{ flex: 1 }}
         >
           <View className="flex-row  ml-6 gap-5 items-center py-5">
             <Image

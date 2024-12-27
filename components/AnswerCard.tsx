@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import icons from "@/constants/icons";
 import images from "@/constants/images";
-
+import VerticalDots from "./VerticalDots";
 
 const AnswerCard = ({
   answer,
@@ -27,14 +27,8 @@ const AnswerCard = ({
           <Text>{answer.title}</Text>
           <Text className="text-[#8D8D8D]">{answer.time}</Text>
         </View>
-        <View className="h-20 w-[10%] flex justify-center ">
-          <TouchableOpacity>
-            <Image
-              source={icons.dots}
-              style={{ width: 5, height: 20, objectFit: "contain" }}
-            />
-          </TouchableOpacity>
-        </View>
+
+        <VerticalDots />
       </View>
       <View className="flex-row p-3">
         <Text>{`Ans: ${answer.description}`}</Text>
@@ -49,7 +43,6 @@ const AnswerCard = ({
           <Text className="text-[#8D8D8D] font-bold ">3</Text>
         </View>
       </View>
-     
     </View>
   );
 };

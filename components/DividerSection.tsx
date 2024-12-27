@@ -2,7 +2,6 @@ import { View, Text, TouchableOpacity, Image } from "react-native";
 import React, { useEffect, useState } from "react";
 import { Divider } from "@rneui/themed";
 import icons from "@/constants/icons";
-import { questions } from "@/constants/data";
 
 const DividerSection = () => {
   const [like, setLike] = useState(false);
